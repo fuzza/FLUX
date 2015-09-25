@@ -56,8 +56,10 @@
     if(callback)
     {
         id newState = callback(action);
-        FLXBaseStore *store = self.store;
-        [self.store setValue:newState forKey:@keypath(store.state)];
+        if([newState isKindOfClass:[self.store stateClass]]) {
+            FLXBaseStore *store = self.store;
+            [self.store setValue:newState forKey:@keypath(store.state)];
+        }
     }
 }
 

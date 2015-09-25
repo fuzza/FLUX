@@ -13,6 +13,8 @@
 @interface FLXBaseStore : NSObject
 
 @property (nonatomic, readonly) id state;
+
 - (void)registerWithLocalDispatcher:(FLXStoreDispatcher *)storeDispatcher;
+- (Class)stateClass;
 
 @end

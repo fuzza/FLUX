@@ -22,6 +22,7 @@
     if(self)
     {
         self.state = [self defaultState];
+        NSParameterAssert([self.state isKindOfClass:[self stateClass]]);
     }
     return self;
 }
@@ -35,6 +36,11 @@
 - (void)registerWithLocalDispatcher:(FLXStoreDispatcher *)storeDispatcher
 {
     [NSException raise:@"Not allowed" format:@"-registerWithLocalDispatcher: method of base class shouldn't be used. Please override it in sublass"];
+}
+
+- (Class)stateClass {
+    [NSException raise:@"Not allowed" format:@"-stateClass method of base class shouldn't be used. Please override it in sublass"];
+    return nil;
 }
 
 @end
