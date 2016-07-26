@@ -7,6 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20880C341D479ED60072E7A4 /* FLUX.h in Headers */ = {isa = PBXBuildFile; fileRef = 20880C331D479ED60072E7A4 /* FLUX.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20880C861D479F770072E7A4 /* TEBaseAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 20880C5C1D479F6F0072E7A4 /* TEBaseAction.m */; };
+		20880C871D479F7C0072E7A4 /* TEActionsDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 20880C5F1D479F6F0072E7A4 /* TEActionsDispatcher.m */; };
+		20880C881D479F7E0072E7A4 /* TEStoreDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 20880C621D479F6F0072E7A4 /* TEStoreDispatcher.m */; };
+		20880C891D479F830072E7A4 /* TESerialExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = 20880C661D479F6F0072E7A4 /* TESerialExecutor.m */; };
+		20880C8A1D479F860072E7A4 /* TEActionsTracer.m in Sources */ = {isa = PBXBuildFile; fileRef = 20880C6A1D479F6F0072E7A4 /* TEActionsTracer.m */; };
+		20880C8B1D479F880072E7A4 /* TEStatesTracer.m in Sources */ = {isa = PBXBuildFile; fileRef = 20880C6D1D479F6F0072E7A4 /* TEStatesTracer.m */; };
+		20880C8C1D479F890072E7A4 /* TEStoreStateObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 20880C6F1D479F6F0072E7A4 /* TEStoreStateObserver.m */; };
+		20880C8D1D479F8F0072E7A4 /* NSArray+Functional.m in Sources */ = {isa = PBXBuildFile; fileRef = 20880C711D479F6F0072E7A4 /* NSArray+Functional.m */; };
+		20880C8E1D479F930072E7A4 /* TEBaseState.m in Sources */ = {isa = PBXBuildFile; fileRef = 20880C751D479F700072E7A4 /* TEBaseState.m */; };
+		20880C8F1D479F970072E7A4 /* TEBaseStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 20880C791D479F700072E7A4 /* TEBaseStore.m */; };
+		20880C901D479F9C0072E7A4 /* TEFileSystemPersistentProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 20880C7E1D479F700072E7A4 /* TEFileSystemPersistentProvider.m */; };
+		20880C911D479F9F0072E7A4 /* TEMiddlewareModels.m in Sources */ = {isa = PBXBuildFile; fileRef = 20880C831D479F700072E7A4 /* TEMiddlewareModels.m */; };
+		20880C921D479FA10072E7A4 /* TEStatePersistence.m in Sources */ = {isa = PBXBuildFile; fileRef = 20880C851D479F700072E7A4 /* TEStatePersistence.m */; };
+		20880C931D479FA40072E7A4 /* TEDomain.m in Sources */ = {isa = PBXBuildFile; fileRef = 20880C811D479F700072E7A4 /* TEDomain.m */; };
+		20880C941D479FB00072E7A4 /* TEBaseAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 20880C5B1D479F6F0072E7A4 /* TEBaseAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20880C951D479FB30072E7A4 /* TEActionsDispatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 20880C5E1D479F6F0072E7A4 /* TEActionsDispatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20880C961D479FBF0072E7A4 /* TEStoreDispatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 20880C611D479F6F0072E7A4 /* TEStoreDispatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20880C971D479FC20072E7A4 /* TEExecutor.h in Headers */ = {isa = PBXBuildFile; fileRef = 20880C641D479F6F0072E7A4 /* TEExecutor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20880C981D479FC50072E7A4 /* TESerialExecutor.h in Headers */ = {isa = PBXBuildFile; fileRef = 20880C651D479F6F0072E7A4 /* TESerialExecutor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20880C991D479FC80072E7A4 /* NSArray+Functional.h in Headers */ = {isa = PBXBuildFile; fileRef = 20880C701D479F6F0072E7A4 /* NSArray+Functional.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20880C9A1D479FCC0072E7A4 /* TEActionsTracer.h in Headers */ = {isa = PBXBuildFile; fileRef = 20880C691D479F6F0072E7A4 /* TEActionsTracer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20880C9B1D479FCF0072E7A4 /* TEDomainMiddleware.h in Headers */ = {isa = PBXBuildFile; fileRef = 20880C6B1D479F6F0072E7A4 /* TEDomainMiddleware.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20880C9C1D479FD00072E7A4 /* TEStatesTracer.h in Headers */ = {isa = PBXBuildFile; fileRef = 20880C6C1D479F6F0072E7A4 /* TEStatesTracer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20880C9D1D479FD30072E7A4 /* TEStoreStateObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = 20880C6E1D479F6F0072E7A4 /* TEStoreStateObserver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20880C9E1D479FD80072E7A4 /* TEBaseState.h in Headers */ = {isa = PBXBuildFile; fileRef = 20880C741D479F700072E7A4 /* TEBaseState.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20880C9F1D479FDC0072E7A4 /* TEBaseStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 20880C781D479F700072E7A4 /* TEBaseStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20880CA01D479FDF0072E7A4 /* TECollectionStoreProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 20880C7B1D479F700072E7A4 /* TECollectionStoreProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20880CA11D479FE70072E7A4 /* TEPersistenceProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 20880C7C1D479F700072E7A4 /* TEPersistenceProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20880CA21D479FEA0072E7A4 /* TEFileSystemPersistentProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 20880C7D1D479F700072E7A4 /* TEFileSystemPersistentProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20880CA31D479FEE0072E7A4 /* TEPersistentStoreProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 20880C7F1D479F700072E7A4 /* TEPersistentStoreProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20880CA41D479FF70072E7A4 /* TEDomain.h in Headers */ = {isa = PBXBuildFile; fileRef = 20880C801D479F700072E7A4 /* TEDomain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20880CA51D479FFA0072E7A4 /* TEMiddlewareModels.h in Headers */ = {isa = PBXBuildFile; fileRef = 20880C821D479F700072E7A4 /* TEMiddlewareModels.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20880CA61D479FFC0072E7A4 /* TEStatePersistence.h in Headers */ = {isa = PBXBuildFile; fileRef = 20880C841D479F700072E7A4 /* TEStatePersistence.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20880CCC1D47A6050072E7A4 /* libextobjc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20880CCB1D47A6050072E7A4 /* libextobjc.framework */; };
+		20880CD01D47ACA50072E7A4 /* KVOController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20880CCF1D47ACA50072E7A4 /* KVOController.framework */; };
 		3DEFF2B21CAF67A0C4EB461C /* Pods_FLUX_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD84D64A7CE0BB738E652433 /* Pods_FLUX_Tests.framework */; };
 		53EE3FAD770C180536755ABB /* Pods_FLUX_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCBA1528C37CB3819E1659C9 /* Pods_FLUX_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -51,6 +87,46 @@
 /* Begin PBXFileReference section */
 		029DA07AED36764FDC52BA34 /* Pods-FLUX_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLUX_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FLUX_Tests/Pods-FLUX_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		1BFEAC9ED6F4A6EEB83EEA55 /* Pods-FLUX_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLUX_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-FLUX_Example/Pods-FLUX_Example.release.xcconfig"; sourceTree = "<group>"; };
+		20880C311D479ED50072E7A4 /* FLUX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FLUX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20880C331D479ED60072E7A4 /* FLUX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLUX.h; sourceTree = "<group>"; };
+		20880C351D479ED60072E7A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20880C5B1D479F6F0072E7A4 /* TEBaseAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TEBaseAction.h; sourceTree = "<group>"; };
+		20880C5C1D479F6F0072E7A4 /* TEBaseAction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TEBaseAction.m; sourceTree = "<group>"; };
+		20880C5E1D479F6F0072E7A4 /* TEActionsDispatcher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TEActionsDispatcher.h; sourceTree = "<group>"; };
+		20880C5F1D479F6F0072E7A4 /* TEActionsDispatcher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TEActionsDispatcher.m; sourceTree = "<group>"; };
+		20880C601D479F6F0072E7A4 /* TEDispatcherProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TEDispatcherProtocol.h; sourceTree = "<group>"; };
+		20880C611D479F6F0072E7A4 /* TEStoreDispatcher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TEStoreDispatcher.h; sourceTree = "<group>"; };
+		20880C621D479F6F0072E7A4 /* TEStoreDispatcher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TEStoreDispatcher.m; sourceTree = "<group>"; };
+		20880C641D479F6F0072E7A4 /* TEExecutor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TEExecutor.h; sourceTree = "<group>"; };
+		20880C651D479F6F0072E7A4 /* TESerialExecutor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TESerialExecutor.h; sourceTree = "<group>"; };
+		20880C661D479F6F0072E7A4 /* TESerialExecutor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TESerialExecutor.m; sourceTree = "<group>"; };
+		20880C671D479F6F0072E7A4 /* flux_models.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; name = flux_models.rb; path = ../flux_models.rb; sourceTree = "<group>"; };
+		20880C691D479F6F0072E7A4 /* TEActionsTracer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TEActionsTracer.h; sourceTree = "<group>"; };
+		20880C6A1D479F6F0072E7A4 /* TEActionsTracer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TEActionsTracer.m; sourceTree = "<group>"; };
+		20880C6B1D479F6F0072E7A4 /* TEDomainMiddleware.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TEDomainMiddleware.h; sourceTree = "<group>"; };
+		20880C6C1D479F6F0072E7A4 /* TEStatesTracer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TEStatesTracer.h; sourceTree = "<group>"; };
+		20880C6D1D479F6F0072E7A4 /* TEStatesTracer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TEStatesTracer.m; sourceTree = "<group>"; };
+		20880C6E1D479F6F0072E7A4 /* TEStoreStateObserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TEStoreStateObserver.h; sourceTree = "<group>"; };
+		20880C6F1D479F6F0072E7A4 /* TEStoreStateObserver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TEStoreStateObserver.m; sourceTree = "<group>"; };
+		20880C701D479F6F0072E7A4 /* NSArray+Functional.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSArray+Functional.h"; path = "../NSArray+Functional.h"; sourceTree = "<group>"; };
+		20880C711D479F6F0072E7A4 /* NSArray+Functional.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Functional.m"; path = "../NSArray+Functional.m"; sourceTree = "<group>"; };
+		20880C741D479F700072E7A4 /* TEBaseState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TEBaseState.h; sourceTree = "<group>"; };
+		20880C751D479F700072E7A4 /* TEBaseState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TEBaseState.m; sourceTree = "<group>"; };
+		20880C781D479F700072E7A4 /* TEBaseStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TEBaseStore.h; sourceTree = "<group>"; };
+		20880C791D479F700072E7A4 /* TEBaseStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TEBaseStore.m; sourceTree = "<group>"; };
+		20880C7B1D479F700072E7A4 /* TECollectionStoreProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TECollectionStoreProtocol.h; sourceTree = "<group>"; };
+		20880C7C1D479F700072E7A4 /* TEPersistenceProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TEPersistenceProtocol.h; sourceTree = "<group>"; };
+		20880C7D1D479F700072E7A4 /* TEFileSystemPersistentProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TEFileSystemPersistentProvider.h; sourceTree = "<group>"; };
+		20880C7E1D479F700072E7A4 /* TEFileSystemPersistentProvider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TEFileSystemPersistentProvider.m; sourceTree = "<group>"; };
+		20880C7F1D479F700072E7A4 /* TEPersistentStoreProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TEPersistentStoreProtocol.h; sourceTree = "<group>"; };
+		20880C801D479F700072E7A4 /* TEDomain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TEDomain.h; path = ../TEDomain.h; sourceTree = "<group>"; };
+		20880C811D479F700072E7A4 /* TEDomain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TEDomain.m; path = ../TEDomain.m; sourceTree = "<group>"; };
+		20880C821D479F700072E7A4 /* TEMiddlewareModels.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TEMiddlewareModels.h; path = ../TEMiddlewareModels.h; sourceTree = "<group>"; };
+		20880C831D479F700072E7A4 /* TEMiddlewareModels.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TEMiddlewareModels.m; path = ../TEMiddlewareModels.m; sourceTree = "<group>"; };
+		20880C841D479F700072E7A4 /* TEStatePersistence.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TEStatePersistence.h; path = ../TEStatePersistence.h; sourceTree = "<group>"; };
+		20880C851D479F700072E7A4 /* TEStatePersistence.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TEStatePersistence.m; path = ../TEStatePersistence.m; sourceTree = "<group>"; };
+		20880CCB1D47A6050072E7A4 /* libextobjc.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libextobjc.framework; sourceTree = "<group>"; };
+		20880CCF1D47ACA50072E7A4 /* KVOController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KVOController.framework; sourceTree = "<group>"; };
 		3A35D7699BAEB7808CE4771C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* FLUX_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FLUX_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -98,6 +174,15 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		20880C2D1D479ED50072E7A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20880CD01D47ACA50072E7A4 /* KVOController.framework in Frameworks */,
+				20880CCC1D47A6050072E7A4 /* libextobjc.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6003F587195388D20070C39A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -123,12 +208,135 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		20880C321D479ED50072E7A4 /* FLUX */ = {
+			isa = PBXGroup;
+			children = (
+				20880C5A1D479F6F0072E7A4 /* Actions */,
+				20880C5D1D479F6F0072E7A4 /* Dispatcher */,
+				20880C631D479F6F0072E7A4 /* Executors */,
+				20880C671D479F6F0072E7A4 /* flux_models.rb */,
+				20880C681D479F6F0072E7A4 /* Middleware */,
+				20880C701D479F6F0072E7A4 /* NSArray+Functional.h */,
+				20880C711D479F6F0072E7A4 /* NSArray+Functional.m */,
+				20880C721D479F6F0072E7A4 /* States */,
+				20880C761D479F700072E7A4 /* Stores */,
+				20880C801D479F700072E7A4 /* TEDomain.h */,
+				20880C811D479F700072E7A4 /* TEDomain.m */,
+				20880C821D479F700072E7A4 /* TEMiddlewareModels.h */,
+				20880C831D479F700072E7A4 /* TEMiddlewareModels.m */,
+				20880C841D479F700072E7A4 /* TEStatePersistence.h */,
+				20880C851D479F700072E7A4 /* TEStatePersistence.m */,
+				20880C331D479ED60072E7A4 /* FLUX.h */,
+				20880C351D479ED60072E7A4 /* Info.plist */,
+			);
+			path = FLUX;
+			sourceTree = "<group>";
+		};
+		20880C5A1D479F6F0072E7A4 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				20880C5B1D479F6F0072E7A4 /* TEBaseAction.h */,
+				20880C5C1D479F6F0072E7A4 /* TEBaseAction.m */,
+			);
+			name = Actions;
+			path = ../Actions;
+			sourceTree = "<group>";
+		};
+		20880C5D1D479F6F0072E7A4 /* Dispatcher */ = {
+			isa = PBXGroup;
+			children = (
+				20880C5E1D479F6F0072E7A4 /* TEActionsDispatcher.h */,
+				20880C5F1D479F6F0072E7A4 /* TEActionsDispatcher.m */,
+				20880C601D479F6F0072E7A4 /* TEDispatcherProtocol.h */,
+				20880C611D479F6F0072E7A4 /* TEStoreDispatcher.h */,
+				20880C621D479F6F0072E7A4 /* TEStoreDispatcher.m */,
+			);
+			name = Dispatcher;
+			path = ../Dispatcher;
+			sourceTree = "<group>";
+		};
+		20880C631D479F6F0072E7A4 /* Executors */ = {
+			isa = PBXGroup;
+			children = (
+				20880C641D479F6F0072E7A4 /* TEExecutor.h */,
+				20880C651D479F6F0072E7A4 /* TESerialExecutor.h */,
+				20880C661D479F6F0072E7A4 /* TESerialExecutor.m */,
+			);
+			name = Executors;
+			path = ../Executors;
+			sourceTree = "<group>";
+		};
+		20880C681D479F6F0072E7A4 /* Middleware */ = {
+			isa = PBXGroup;
+			children = (
+				20880C691D479F6F0072E7A4 /* TEActionsTracer.h */,
+				20880C6A1D479F6F0072E7A4 /* TEActionsTracer.m */,
+				20880C6B1D479F6F0072E7A4 /* TEDomainMiddleware.h */,
+				20880C6C1D479F6F0072E7A4 /* TEStatesTracer.h */,
+				20880C6D1D479F6F0072E7A4 /* TEStatesTracer.m */,
+				20880C6E1D479F6F0072E7A4 /* TEStoreStateObserver.h */,
+				20880C6F1D479F6F0072E7A4 /* TEStoreStateObserver.m */,
+			);
+			name = Middleware;
+			path = ../Middleware;
+			sourceTree = "<group>";
+		};
+		20880C721D479F6F0072E7A4 /* States */ = {
+			isa = PBXGroup;
+			children = (
+				20880C731D479F700072E7A4 /* Base */,
+			);
+			name = States;
+			path = ../States;
+			sourceTree = "<group>";
+		};
+		20880C731D479F700072E7A4 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				20880C741D479F700072E7A4 /* TEBaseState.h */,
+				20880C751D479F700072E7A4 /* TEBaseState.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		20880C761D479F700072E7A4 /* Stores */ = {
+			isa = PBXGroup;
+			children = (
+				20880C771D479F700072E7A4 /* Base */,
+				20880C7A1D479F700072E7A4 /* Protocols */,
+				20880C7D1D479F700072E7A4 /* TEFileSystemPersistentProvider.h */,
+				20880C7E1D479F700072E7A4 /* TEFileSystemPersistentProvider.m */,
+				20880C7F1D479F700072E7A4 /* TEPersistentStoreProtocol.h */,
+			);
+			name = Stores;
+			path = ../Stores;
+			sourceTree = "<group>";
+		};
+		20880C771D479F700072E7A4 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				20880C781D479F700072E7A4 /* TEBaseStore.h */,
+				20880C791D479F700072E7A4 /* TEBaseStore.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		20880C7A1D479F700072E7A4 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				20880C7B1D479F700072E7A4 /* TECollectionStoreProtocol.h */,
+				20880C7C1D479F700072E7A4 /* TEPersistenceProtocol.h */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for FLUX */,
 				6003F5B5195388D20070C39A /* Tests */,
+				20880C321D479ED50072E7A4 /* FLUX */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
 				8405CA57A84C418AEB179D4F /* Pods */,
@@ -140,6 +348,7 @@
 			children = (
 				6003F58A195388D20070C39A /* FLUX_Example.app */,
 				6003F5AE195388D20070C39A /* FLUX_Tests.xctest */,
+				20880C311D479ED50072E7A4 /* FLUX.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -147,6 +356,8 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				20880CCF1D47ACA50072E7A4 /* KVOController.framework */,
+				20880CCB1D47A6050072E7A4 /* libextobjc.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
@@ -291,7 +502,55 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		20880C2E1D479ED50072E7A4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20880C341D479ED60072E7A4 /* FLUX.h in Headers */,
+				20880C941D479FB00072E7A4 /* TEBaseAction.h in Headers */,
+				20880C951D479FB30072E7A4 /* TEActionsDispatcher.h in Headers */,
+				20880C961D479FBF0072E7A4 /* TEStoreDispatcher.h in Headers */,
+				20880C971D479FC20072E7A4 /* TEExecutor.h in Headers */,
+				20880C981D479FC50072E7A4 /* TESerialExecutor.h in Headers */,
+				20880C991D479FC80072E7A4 /* NSArray+Functional.h in Headers */,
+				20880C9A1D479FCC0072E7A4 /* TEActionsTracer.h in Headers */,
+				20880C9B1D479FCF0072E7A4 /* TEDomainMiddleware.h in Headers */,
+				20880C9C1D479FD00072E7A4 /* TEStatesTracer.h in Headers */,
+				20880C9D1D479FD30072E7A4 /* TEStoreStateObserver.h in Headers */,
+				20880C9E1D479FD80072E7A4 /* TEBaseState.h in Headers */,
+				20880C9F1D479FDC0072E7A4 /* TEBaseStore.h in Headers */,
+				20880CA01D479FDF0072E7A4 /* TECollectionStoreProtocol.h in Headers */,
+				20880CA11D479FE70072E7A4 /* TEPersistenceProtocol.h in Headers */,
+				20880CA21D479FEA0072E7A4 /* TEFileSystemPersistentProvider.h in Headers */,
+				20880CA31D479FEE0072E7A4 /* TEPersistentStoreProtocol.h in Headers */,
+				20880CA51D479FFA0072E7A4 /* TEMiddlewareModels.h in Headers */,
+				20880CA61D479FFC0072E7A4 /* TEStatePersistence.h in Headers */,
+				20880CA41D479FF70072E7A4 /* TEDomain.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		20880C301D479ED50072E7A4 /* FLUX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20880C381D479ED60072E7A4 /* Build configuration list for PBXNativeTarget "FLUX" */;
+			buildPhases = (
+				20880C2C1D479ED50072E7A4 /* Sources */,
+				20880C2D1D479ED50072E7A4 /* Frameworks */,
+				20880C2E1D479ED50072E7A4 /* Headers */,
+				20880C2F1D479ED50072E7A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FLUX;
+			productName = FLUX;
+			productReference = 20880C311D479ED50072E7A4 /* FLUX.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		6003F589195388D20070C39A /* FLUX_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "FLUX_Example" */;
@@ -343,6 +602,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Alexey Fayzullov";
 				TargetAttributes = {
+					20880C301D479ED50072E7A4 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -363,11 +625,19 @@
 			targets = (
 				6003F589195388D20070C39A /* FLUX_Example */,
 				6003F5AD195388D20070C39A /* FLUX_Tests */,
+				20880C301D479ED50072E7A4 /* FLUX */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		20880C2F1D479ED50072E7A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6003F588195388D20070C39A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -482,6 +752,27 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		20880C2C1D479ED50072E7A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20880C861D479F770072E7A4 /* TEBaseAction.m in Sources */,
+				20880C871D479F7C0072E7A4 /* TEActionsDispatcher.m in Sources */,
+				20880C8A1D479F860072E7A4 /* TEActionsTracer.m in Sources */,
+				20880C8B1D479F880072E7A4 /* TEStatesTracer.m in Sources */,
+				20880C8C1D479F890072E7A4 /* TEStoreStateObserver.m in Sources */,
+				20880C891D479F830072E7A4 /* TESerialExecutor.m in Sources */,
+				20880C8D1D479F8F0072E7A4 /* NSArray+Functional.m in Sources */,
+				20880C8F1D479F970072E7A4 /* TEBaseStore.m in Sources */,
+				20880C8E1D479F930072E7A4 /* TEBaseState.m in Sources */,
+				20880C911D479F9F0072E7A4 /* TEMiddlewareModels.m in Sources */,
+				20880C931D479FA40072E7A4 /* TEDomain.m in Sources */,
+				20880C901D479F9C0072E7A4 /* TEFileSystemPersistentProvider.m in Sources */,
+				20880C921D479FA10072E7A4 /* TEStatePersistence.m in Sources */,
+				20880C881D479F7E0072E7A4 /* TEStoreDispatcher.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6003F586195388D20070C39A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -543,6 +834,70 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		20880C361D479ED60072E7A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = FLUX/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.techery.FLUX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		20880C371D479ED60072E7A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = FLUX/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.techery.FLUX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		6003F5BD195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -690,6 +1045,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		20880C381D479ED60072E7A4 /* Build configuration list for PBXNativeTarget "FLUX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20880C361D479ED60072E7A4 /* Debug */,
+				20880C371D479ED60072E7A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		6003F585195388D10070C39A /* Build configuration list for PBXProject "FLUX" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
